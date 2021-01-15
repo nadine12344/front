@@ -1,0 +1,55 @@
+
+  
+  .App {
+   
+  
+    font-weight: 400;
+   
+  
+   
+    
+  }
+  
+  .App, .outer {
+    width: 100%;
+margin-top:230px ;
+  }
+  
+  .navbar-dark {
+    background-color: rgb(114, 36, 79);
+   color: white;
+  }
+  .small{
+    width: 40px;
+    height: 50px;
+  }
+  .outer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .inner {
+    width: 41%;
+    margin: auto;
+    
+        background: linear-gradient(to right, #fcf0fa, #f8d5ee); 
+        
+  
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    
+  }
+  @media only screen and (max-width: 850px) {
+    .inner {
+    width: 88%;}
+  }
+  .outer h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  
+ 

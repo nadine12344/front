@@ -1,0 +1,226 @@
+/* body {
+  overflow: hidden; 
+} 
+*/
+
+.MainAcademicTable {
+ border-collapse: collapse;
+ padding: 0vw !important;
+ margin: 0vw !important;
+}
+
+.MainAcademicLogo {
+    margin-left:55vw !important; 
+    width: 12vw;
+    height:3vw;
+    /* margin-top: 10vw !important; */
+    margin-bottom: 45vw; 
+  }
+
+ .MainAcademicListFont{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: black;
+  position: 'relative';
+  margin-bottom: 0.2vw;
+ } 
+
+ .MainAcademicTableColumn1{
+  width:25vw !important;
+  border-spacing:0vw !important;
+  /* padding-top: -10vw !important; */
+  background-color: beige;
+  height: 50vw;
+  padding-top: 0vw !important;
+  padding:0vw !important;
+
+
+ } 
+
+ .MainAcademicList{
+  width:25vw !important;
+  /* border-spacing:0vw !important; */
+   /* background-color: red;  */
+   /* margin-top: -20vw !important;  */
+   /* padding-top: 2vw !important; */
+ } 
+
+
+
+ .MainAcademicTableColumn2{
+  width:75vw;
+  
+
+ } 
+
+
+ .sendReplacementModal {
+  width: 80vw !important;
+  height: 20vw !important;
+  }
+
+
+  .sendReplacementHeaderFont{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    color: crimson;
+    position: 'relative';
+    margin-bottom: 0.2vw;
+   } 
+   .sendReplacementTitleFont{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: black;
+    position: 'relative';
+    margin-bottom: 0.2vw;
+   } 
+
+
+   .sendReplacementInput{
+    height: 3vw !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw !important;
+    color:black;
+   } 
+
+   .sendReplacementTextInput{
+    height: 6vw !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw !important;
+    color:black;
+   } 
+   
+   .sendReplacementButton{
+     height:3vw;
+     font-weight: 500;
+    font-size: 1vw !important;
+    color:white;
+    display: 'flex';
+     justify-Content: 'right';
+     align-Items:'right';
+     align-Self:'right';
+     float: right;
+
+
+   }
+
+   .modalButton{
+     width:4vw;
+    height:3vw;
+    font-weight: 500;
+   font-size: 1vw !important;
+   color:white;
+   display: 'flex';
+    justify-Content: 'center';
+    align-Items:'center';
+    /* align-Self:'center'; */
+    float: left;
+    
+
+  }
+
+  .closeIcon{
+    /* background-color: red; */
+    color: crimson;
+  }
+
+  .checkIcon{
+    color:green
+  }
+
+  .loginCard{
+    margin-left: 20vw;
+    margin-top: 10vw;
+    width:50vw !important;
+    align-self: center;
+    border-radius: 1vw;
+    border:1vw grey solid;
+  }
+
+
+  .loginInput{
+    width:40vw !important;
+    align-self: center;
+    border-radius: 1vw;
+    border:1vw grey solid;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw !important;
+    color:black;
+    margin-left: 3vw;
+  }
+
+  .loginButton{
+    height:3vw;
+     font-weight: 500;
+    font-size: 1vw !important;
+    color:white;
+    display: 'flex';
+     justify-Content: 'right';
+     align-Items:'right';
+     align-Self:'right';
+     margin-left: 22vw;
+  }
+
+
+  .sign-out-logo{
+    margin-top: 0.5vw !important;
+    float: right;
+    margin-left: 1vw;
+    height: 3vw;
+    font-size: large;
+  }
+
+  .sign-out-All{
+    margin-top: 1vw !important;
+    margin-left: 1vw;
+    height: 3vw;
+  }
+
+  .viewProfileTable{
+    /* border:none !important; */
+    border-collapse: collapse !important;
+    border-spacing: 0vw !important;
+    margin-bottom: 0vw !important;
+    border-style:hidden;
+    /* padding: 0vw !important; */
+  }
+
+  .viewProfileHeading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8vw;
+    color: crimson;
+    position: 'relative';
+    margin-bottom: 0.2vw;
+
+  }
+
+  .viewProfileData{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4vw;
+    color: black;
+    position: 'relative';
+    margin-bottom: 0.2vw;
+  }
+
+
+  .viewProfileCard{
+    margin-left: 10vw;
+    margin-top: 10vw;
+    width:80vw !important;
+    align-self: center;
+    border-radius: 2vw;
+    border:1vw grey solid;
+      background-color:crimson ;
+  }
+
+  
+  
+

@@ -1,0 +1,108 @@
+@keyframes example {
+
+    to {background-color: #dddfdd;    width:80%;}
+  }
+  
+
+.purple{
+    background-color: rgb(114, 36, 79);
+  
+}
+.orange{
+    background-color: rgb(146, 114, 66);
+  
+}
+.button{
+    background-color: white;
+    border: rgb(114, 36, 79) 2px solid;
+    
+}
+.purplebutton{
+    background-color: rgb(114, 36, 79)  ;
+    border: white 2px solid;
+    color: white;
+    height: 60px;
+
+    margin: 10px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+.pointer{
+    cursor: pointer;
+}
+.bottom{
+    margin-bottom: 10px;
+}
+.margin{
+    margin-right: 50px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .center2{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+   
+ 
+}
+#class{
+    margin-top: 10px;
+    height: 109px;
+    background-color:rgb(245, 244, 244);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width:75%;
+cursor: pointer;}
+ #class:hover{
+
+    animation-name: example;
+    animation-duration: 2s;
+    }
+#id{
+    padding-left: 25px;
+    padding-top: 23px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+ position: absolute;
+        height: 109px;
+        width:75px;
+         background-color: rgb(114, 36, 79);
+    }
+        
+        .text{
+            position: absolute;
+        height: 109px;
+        width:70%;
+            margin-top: 35px;
+            font-family: "Montserrat";
+            font-size: 20px;
+         
+            margin-left: 95px;
+           
+       
+        }
+        .container{
+            width:50%
+        }

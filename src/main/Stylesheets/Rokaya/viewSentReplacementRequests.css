@@ -1,0 +1,43 @@
+.viewSentReplacementRequestTextTitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: black;
+    position: 'relative';
+    margin-top: 0.1vw;
+   } 
+
+
+   .viewSentReplacementRequestTextData{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    color: black;
+    position: 'relative';
+    margin-top: 0.1vw;
+   }
+
+
+   .flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.filterButton{
+    height:3vw;
+    font-weight: 500;
+   font-size: 1vw !important;
+   color:white;
+   /* display: 'flex'; */
+    justify-Content: 'center';
+    align-Items:'center';
+    align-Self:'center';
+    float: center;
+    background-color: gray !important;
+}
+
+.viewAllRequestsTable{
+    width:100vw !important;
+}
+
