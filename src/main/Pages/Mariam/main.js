@@ -72,6 +72,21 @@ export default function MainAcademicPage(props) {
           }, 2000);
         }
            ,[])
+             
+
+  const logoutClick= async ()=>{
+    sessionStorage.removeItem("token")
+    await axios({
+      url: `${backendLink}/logging/logout`,
+      method: 'post',
+    }).then((res) => {
+        console.log(res)
+        
+    }).catch((err) => {
+        console.log(err.response)
+      })
+    history.push("/")
+  }
   return (
 
     
@@ -103,7 +118,7 @@ export default function MainAcademicPage(props) {
         
           <div class="col-sm-12  hideSmall">
             <div class="row">
-      
+          
             <button  class="col-sm-2 buttonblue "  onClick={()=> history.push("/signing")} ><span>sign</span></button>
             <button  class="col-sm-2 buttonblue " onClick={()=> history.push("/hours")}><span>Missing Hours</span></button>
             <button  class="col-sm-2 buttonblue " onClick={()=> history.push("/days")}><span>Missing Days</span></button>
@@ -144,6 +159,10 @@ export default function MainAcademicPage(props) {
     </div> <div id="class" onClick={()=> history.push("/changePassword")}>
       <span id="blue"></span>
       <span class="text">Change Password</span>
+    </div>
+    
+    <div id="class">
+    <i className="fa offset-9 bottom pointer fa-sign-out fa-lg sign-out-ALL" onClick={logoutClick}>Logout</i>
     </div>
  
  
